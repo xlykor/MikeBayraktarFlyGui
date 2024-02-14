@@ -276,15 +276,14 @@ nowe = false
 
  
 
-game:GetService("StarterGui"):SetCore("SendNotification", { 
 
- Title = "Mikeexc Fly";
-
- Text = "Mikeexc Online Fly Gui";
-
- Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-
-Duration = 5;
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Welcome"; -- the title (ofc)
+Text = "Script Made By Mikeexc"; -- what the text says (ofc)
+Icon = ""; -- the image if u want. 
+Duration = 5; -- how long the notification should in secounds
+})
 
  
 
